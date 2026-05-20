@@ -7,9 +7,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-const message =
-    process.env.MESSAGE ||
-    "Deploy funcionando!";
+const message = process.env.MESSAGE || "Deploy funcionando!";
 
 // conexão PostgreSQL
 const pool = new Pool({
